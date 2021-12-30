@@ -1,0 +1,9 @@
+version: "2.0"
+
+nlu:
+- intent: play_video
+  examples: |
+    - play the video
+    - open the url
+    - open the link in browser
+    - show me the video that I asked for
