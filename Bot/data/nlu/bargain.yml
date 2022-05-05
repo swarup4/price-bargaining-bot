@@ -1,9 +1,0 @@
-version: "2.0"
-
-nlu:
-- intent: bargain
-  examples: |
-    - is it possible to give [price]
-    - is it possible to get at (price)
-    - is it possible at {price}
-#    - is it possible at [80](price)

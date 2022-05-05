@@ -1,0 +1,24 @@
+version: "2.0"
+
+nlu:
+- intent: bargain
+  examples: |
+    - is it possible to give [50](price)
+    - is it possible to give [60](price)
+    - is it possible to give [70](price)
+    - is it possible to give [80](price)
+
+    - is it possible to get at [50](price)
+    - is it possible to get at [60](price)
+    - is it possible to get at [70](price)
+    - is it possible to get at [80](price)
+
+    - is it possible at [50](price)
+    - is it possible at [60](price)
+    - is it possible at [70](price)
+    - is it possible at [80](price)
+
+    - is it possible to give at [50](price)
+    - is it possible to give at [60](price)
+    - is it possible to give at [70](price)
+    - is it possible to give at [80](price)
