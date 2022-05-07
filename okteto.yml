@@ -1,4 +1,4 @@
-name: rasa-server
+name: rasa
 command: bash
 volumes:
 - /root/.cache/pip
