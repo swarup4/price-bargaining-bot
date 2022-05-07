@@ -30,6 +30,7 @@ class GetPrice(Action):
 
    def run(self, dispatcher, tracker: Tracker, domain):
       price = 'price of this product is 100 Rs only'
+      print(price)
       dispatcher.utter_message(price)
       return []
 
@@ -38,6 +39,7 @@ class Bargain(Action):
       return "bargain_price"
 
    def run(self, dispatcher, tracker: Tracker, domain):
+      print("Call Bargain Action")
       price = tracker.latest_message['entities']
       print(price)
 
