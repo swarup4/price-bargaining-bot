@@ -41,6 +41,7 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .nox/
+.idea
 .coverage
 .coverage.*
 .cache
@@ -104,6 +105,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+package.json
 env/
 venv/
 ENV/
