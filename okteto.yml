@@ -1,4 +1,5 @@
 name: price-bargaining-bot
+autocreate: true
 image: hagglebot:latest
 command: bash
 volumes:
