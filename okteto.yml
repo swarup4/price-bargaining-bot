@@ -1,12 +1,11 @@
 name: price-bargaining-bot
-autocreate: true
 image: hagglebot:latest
 command: bash
 volumes:
-  - /root/.cache/pip
+- /root/.cache/pip
 sync:
-  - .:/app
+- .:/app
 forward:
-  - 5006:5006
+- 5006:5006
 reverse:
-  - 9000:9000
+- 9000:9000

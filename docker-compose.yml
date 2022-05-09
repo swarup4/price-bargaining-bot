@@ -7,8 +7,8 @@ services:
     build: "./"
     restart: always
     volumes:
-    - ./actions: /app/actions
-    - ./data: /app/data
+    - ./actions:/app/actions
+    - ./data:/app/data
     command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
     ports:
     - '5006:5005'
@@ -22,7 +22,8 @@ services:
     build: "./"
     restart: always
     volumes:
-    - ./actions: /app/actions
+    - ./actions:/app/actions
+    - ./utils:/app/utils
     command: bash -c "rasa run actions"
     ports:
     - '5055:5055'
