@@ -11,3 +11,13 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Ask Price
+  steps:
+  - intent: price
+  - action: get_price
+
+- rule: Bargain
+  steps:
+  - intent: price
+  - action: bargain_price
