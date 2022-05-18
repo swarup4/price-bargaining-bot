@@ -19,5 +19,5 @@ rules:
 
 - rule: Bargain
   steps:
-  - intent: price
+  - intent: bargain
   - action: bargain_price

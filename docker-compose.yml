@@ -1,6 +1,5 @@
 version: '3.4'
 services:
-
   rasa:
     image: hagglebot:latest
     working_dir: /app
